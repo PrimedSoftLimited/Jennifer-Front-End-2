@@ -1,0 +1,152 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+/* Head Style */
+.head {
+    height: 8vh;
+    width: 100%;
+}
+.head-package {
+    width: 95%;
+    margin: auto;
+}
+/* Logo Style */
+#logo {
+    width: 10%;
+    float: left;
+    height: 8vh;
+    background: black;
+}
+
+#img-logo {
+    float: right;
+    margin-top:10px;
+    width: 45%;
+    height: 5vh;
+}
+/* Nav Link Style */
+#link {
+    background: black;
+    width: 70%;
+    float: left;
+     height:8vh;
+}
+.nav-list ul{
+  float: right;
+  margin: 0;
+}
+.nav-list ul a{
+   text-decoration: none;
+   color: grey;
+   font-family: monospace;
+   font-size: 2.5vh;
+  }
+.nav-list ul li{
+  list-style: none;
+  display: inline-block;
+  background: black;
+  height:8vh;
+  padding: 15px;
+  margin-top: 7px;
+}
+/* Social Style */
+#social {
+    background: black;
+    width: 20%;
+    float: left;
+     height: 8vh;
+}
+#social_box {
+    height: 8vh;
+    width: 50%;
+    margin: auto
+}
+#social_box img {
+    height: 8vh;
+    width: 20%;
+    cursor: pointer;
+}
+/* Body Style */
+.body {
+    width: 95%;
+    margin: auto;
+    background: black;
+    height: 92vh;
+}
+#image-block {
+    width: 60%; 
+    background: url(images/geo.png) no-repeat;
+    background-position: center;
+    background-size: 60% 67%;
+    height: 92vh;
+    float: left;
+}
+#img-air {
+    position: absolute;
+    top: -5%;
+    left: -3%;
+    width: 70%;
+}
+
+/*Image Info */
+#image-info {
+    width: 40%; 
+    height: 92vh;
+    float: right;
+}
+.info-block {
+    position: absolute;
+    background: black;
+    height: 50vh;
+    width: 30%;
+    top: 30%;
+    left: 65%;
+}
+#nk {
+    font-size: 3.5vh;
+    font-family: monospace;
+    color: white;
+    margin-top: 12px;
+    
+}
+#air-m {
+    background: red;
+    border-radius: 100px;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+    color: black;
+    position: absolute;
+    padding-top: 0.9vh;
+    font-size: 1.3vw;
+    font-weight: bold;
+    top: 10%;
+    left: 25%;
+    height: 3.7vh;
+}
+#ck p {
+    font-size: 1.5vw;
+    text-align: justify;
+    font-family: Sans Serif;
+    color: grey;
+}
+#ck button {
+    background: white;
+    color: black;
+    width: 35%;
+    text-align: center;
+    border-radius: 10px;
+    height: 5vh;
+    font-size: 1vw;
+    font-weight: bolder;
+}
+
+
+
+
+
